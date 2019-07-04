@@ -1,17 +1,17 @@
-#Zermelo.py
+# Zermelo.py
 
 Zermelo api wrapper library for python.
 
 
-##Installation
+## Installation
 
 To install the package run this command:
 
-```
-pip install zermelo.py
+```bash
+  pip install zermelo.py
 ```
 
 
-##Usage
+## Usage
 
 Coming Soon
