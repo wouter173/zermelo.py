@@ -3,7 +3,7 @@
 Zermelo api wrapper library for python.
 
 
-##Features
+## Features
 
 1. Get appointments from your zermelo calender.
 2. Get your zermelo user data.
