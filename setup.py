@@ -5,7 +5,7 @@ with open("README.md", "r") as fh:
 
 setup(
   name="zermelo.py",
-  version="0.0.7",
+  version="1.0",
   license="MIT",
   url="https://github.com/wouter173/zermelo.py",
 
