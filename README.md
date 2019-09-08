@@ -1,5 +1,7 @@
 # Zermelo.py
 
+[![Build Status](https://travis-ci.org/wouter173/zermelo.py.svg?branch=master)](https://travis-ci.org/wouter173/zermelo.py)
+
 Zermelo api wrapper library for python.
 
 
