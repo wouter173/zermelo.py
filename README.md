@@ -1,6 +1,6 @@
 # Zermelo.py
 
-[![Build Status](https://travis-ci.org/wouter173/zermelo.py.svg?branch=master)](https://travis-ci.org/wouter173/zermelo.py)
+[![Build Status](https://travis-ci.org/wouter173/zermelo.py.svg?branch=master)](https://travis-ci.org/wouter173/zermelo.py) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 Zermelo api wrapper library for python.
 
