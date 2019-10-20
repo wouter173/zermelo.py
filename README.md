@@ -2,14 +2,13 @@
 
 [![Build Status](https://travis-ci.org/wouter173/zermelo.py.svg?branch=master)](https://travis-ci.org/wouter173/zermelo.py) [![Python 3.6](https://img.shields.io/badge/python-3.6-blue.svg)](https://www.python.org/downloads/release/python-360/) [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-Zermelo api wrapper library for python.
-
+A Python implementation of the [Zermelo API.](https://zermelo.atlassian.net/wiki/spaces/DEV)
 
 ## Features
 
-1. Get appointments from your zermelo calender.
-2. Get your zermelo user data.
-3. Get the zermelo announcements from your school.
+1. Get appointments from a zermelo calendar.
+2. Get data of a zermelo user.
+3. Get announcements
 
 ## Installation
 
@@ -29,7 +28,7 @@ Client()
 
 params:
 ```
-School: String ? Zermelo name of your school.
+School: String ? Name of the school.
 ```
 
 Result:
@@ -77,7 +76,7 @@ Client.get_user()
 
 Params: 
 ```
-Token: String ? Access_token you get from Client.Authenticate()
+Token: String ? Access_token you get from the Client.Authenticate() function
 ```
 
 Result:
@@ -101,7 +100,7 @@ Client.get_appointments()
 
 Params: 
 ```
-Token: String ? Access_token you get from Client.Authenticate()
+Token: String ? Access_token you get from the Client.Authenticate() function
 StartUnix: int ? Unix timestamp for the first date you want to get the appointments from.
 EndUnix: int ? Unix timestamp for the last date you want to get the appointments from.
 ```
@@ -127,7 +126,7 @@ Client.get_announcements()
 
 Params: 
 ```
-Token: String ? Access_token you get from Client.Authenticate()
+Token: String ? Access_token you get from the Client.Authenticate() function
 ```
 
 Result:
@@ -142,3 +141,6 @@ Demo:
 announcements = cl.get_announcements(token["access_token"])
 print(announcements)
 ```
+
+# License
+[MIT](https://github.com/wouter173/zermelo.py/blob/master/LICENSE)
