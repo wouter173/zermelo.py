@@ -52,7 +52,7 @@ Client.authenticate()
 Params:
 
 ```
-Code: String ? A connect code you get from https://YOURSCHOOLNAME.zportel.nl/main/#connectionsModule-connectApp
+Code: String ? A connect code you get from https://YOURSCHOOLNAME.zportal.nl/main/#connectionsModule-connectApp
 ```
 
 Result:
