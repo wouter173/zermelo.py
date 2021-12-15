@@ -96,7 +96,7 @@ class Client():
         if usercode == None:
             raise ValueError("Usercode is not defined.")
 
-        url = f"{self.endpoint}/v1/liveschedule?student={usercode}&week={week}"
+        url = f"{self.endpoint}/v3/liveschedule?student={usercode}&week={week}"
         params = {
             "access_token": token
         }
