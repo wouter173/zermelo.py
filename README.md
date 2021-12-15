@@ -142,7 +142,7 @@ announcements = cl.get_announcements(token["access_token"])
 print(announcements)
 ```
 
-### Announcements
+### Enrollments
 
 ```python
 Client.get_liveschedule()
