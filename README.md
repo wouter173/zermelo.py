@@ -142,5 +142,32 @@ announcements = cl.get_announcements(token["access_token"])
 print(announcements)
 ```
 
+### Enrollments
+
+```python
+Client.get_liveschedule()
+```
+
+Params: 
+```
+Token: String ? Access_token you get from the Client.Authenticate() function
+Week: String ? The ISO-week for which you want to request the schedule
+Usercode: String ? The code of the student you want to request the schedule of 
+```
+
+Result:
+
+```
+Enrollments: dict()
+```
+
+Demo:
+
+```python
+usercode = cl.get_user(token["access_token"])["response"]["data"][0]["code"]
+enrollments = cl.get_liveschedule(token["access_token"], "202150", usercode) # Requests week 50 of the year 2021
+print(enrollments)
+```
+
 # License
 [MIT](https://github.com/wouter173/zermelo.py/blob/master/LICENSE)
