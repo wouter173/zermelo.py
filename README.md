@@ -52,7 +52,7 @@ Client.authenticate()
 Params:
 
 ```
-Code: String ? A connect code you get from https://YOURSCHOOLNAME.zportel.nl/main/#connectionsModule-connectApp
+Code: String ? A connect code you get from https://YOURSCHOOLNAME.zportal.nl/main/#connectionsModule-connectApp
 ```
 
 Result:
@@ -64,7 +64,7 @@ Token: dict()
 Demo:
 
 ```python
-token = cl.auhtenticate("441 440 997 507")
+token = cl.authenticate("441 440 997 507")
 print(token["access_token"])
 ```
 
